@@ -11,6 +11,7 @@ img {
 
 main {
     position: relative;
+    5000px;
 }
 
 .bg_main {
@@ -24,11 +25,10 @@ main {
     max-width: 120%;
 }
 
-.float_img {
-}
-
 .float_img p {
     position: fixed;
+    width: 10%;
+    z-index: -10;
 }
 
 .float_img p:nth-child(1) {
@@ -49,19 +49,20 @@ main {
 }
 
 .float_img p:nth-child(4) {
-    width: 30%;
+    width: 20%;
     top: 45%;
     right: 3%;
 }
 
 .float_img p:nth-child(5) {
+    width: 20%;
     top: 30%;
     left: 1%;
 }
 
 .float_img p:nth-child(7) {
     top: 70%;
-    right: 1%;
+    right: 40%;
 }
 
 .float_img p:nth-child(6) {
